@@ -88,7 +88,7 @@ function App() {
   //   "cioc": "BEL",
   //   "independent": true
   // }]
-  const url = './data.json'
+  const url = '../data.json'
   const [countries, setCountries] = useState([])
   const [countryElements, setCountryElements] = useState([])
   const [selectedRegion, setSelectedRegion] = useState("Africa")
