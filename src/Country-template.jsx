@@ -5,7 +5,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 
 function BorderCountry(props){
   return(
-    <div className="borderItem"><p>{props.name}</p></div>
+    <div className="borderItem">{props.name}</div>
   )
 }
 

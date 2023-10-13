@@ -207,12 +207,11 @@ useEffect(() => {
       <Nav />
 
       <main>
-        <Search query = {query} queryFunc= {queryFunc} selectFunction = {handleSelect}/>
-
-        <div className="countries-container">
-          {query == ""? nestedElements : filteredCountries()}
-          {/* {nestedElements} */}
-        </div>
+          <Search query = {query} queryFunc= {queryFunc} selectFunction = {handleSelect}/>
+          <div className="countries-container">
+            {query == ""? nestedElements : filteredCountries()}
+            {/* {nestedElements} */}
+          </div>
       </main>
     </>
   )

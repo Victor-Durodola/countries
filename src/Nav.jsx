@@ -20,7 +20,7 @@ export default function Nav() {
             <label className="mode-switch" htmlFor='mode-switch'>
                 <input type="checkbox" id='mode-switch' name='mode-switch' onChange={handleChange}/>
                 <FontAwesomeIcon icon={faMoon}/>
-                <p>Dark Mode</p>
+                {/* <p>Dark Mode</p> */}
             </label>
         </nav>
     )
